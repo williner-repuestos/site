@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>WILLINER REPUESTOS - Mercado de Autopartes</title>
+  <title>Material Design for Bootstrap</title>
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
@@ -17,379 +17,323 @@
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/estilos.css">
-  
+
+  <style>
+    .fondo {
+      height: 100vh; 
+      /* background: url('https://mdbootstrap.com/img/Photos/Others/img%20(51).jpg'); */
+      background: url('img/fondo-1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .verde1{
+      background: rgba(0, 128, 0, 0.199);
+    }
+
+    .top-nav-collapse{
+      background: rgb(0, 125,80) !important;
+    }
+  </style>
 
 </head>
-
-<body data-spy="scroll" data-target="#menu" class="">
- 
-    <!-- Inicio del Proyecto-->
-      <!-- Inicio de secciones -->  
-        <!-- Inicio de seccion 1 NOSOTROS-->
-        <div id="Seccion-1" class="Container-fluid fondo view">
-          <div class="mask pattern-7 d-flex flex-column justify-content-center align-items-center">
-            <div class="Container d-none d-sm-block ">
-              <img src="img/svg/LWRW.svg" alt="Logo Williner Repuestos" class="img-fluid">
-            </div>
-            
-            <div class="container text-center rgba-black-light mt-4 p-3">
-              <h5 class="yellow-text "><i class="fas fa-store-alt"></i> <strong>Mercado de autopartes</strong></h5>
-              <!-- <h3 class=" yellow-text text-center pt-2"><strong>Nuestra pequeña historia</strong></h3> -->
-              <p class=" lead white-text h5-responsive">
-                Somos una empresa familiar fundada por su dueño allá por el año 1977 dedicada a la 
-                comercialización de autopartes.
-                <br>
-                Situada en la perla del oeste santafesino.
-                <br>
-                Somos representantes en Rafaela y zona de la reconocida marca alemana <strong>MANN FILTER</strong>, 
-                comercializada por <strong>MANN+HUMMEL</strong> el experto global líder en soluciones
-                  de filtración a nivel mundial.
-              </p>
-              <a class="btn btn-outline-yellow waves-effect" href="empresa.html" role="button"><i class="fas fa-clone left"></i>Mas info</a>
-            </div>
-            
-            
-          </div>
-        </div>
-        <!-- Fin de seccion 1 -->
+<body class="lime accent-2">
+  <!-- Start your project here-->
+  
+  <!-- Inicio Barra de navegación NavBar -->
+  <nav class="navbar navbar-expand-md navbar-dark verde1 scrolling-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/svg/Logo-sitio.svg" width="30" height="30"  class="d-inline-block align-top" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
         
-        <!--Inicio Barra de navegacion Navbar -->
-        <nav id="menu" class="navbar mb-1 navbar-expand-md navbar-dark verde1 scrolling-navbar sticky-top  ">
-          <a class="navbar-brand" href="#">
-            <img src="img/svg/logo-redondo-fondo-amarillo.svg" width="30" height="30"  class="d-inline-block align-top font-weight-normal" alt="Logo redondo fondo amarillo">
-          </a>
-          <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-            aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-            <ul class="navbar-nav mr-auto text-center ">
-              <li class="nav-item">
-                <a class="nav-link" data-scroll href="#Seccion-1">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll href="#Seccion-2">Novedades</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll href="#Seccion-3">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll href="#Seccion-4">Marcas que trabajamos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-scroll href="#Seccion-5">Contacto</a>
-              </li>
-            </ul>
-            
-            <ul class="navbar-nav ml-auto nav-flex-icons justify-content-center  ">
-              <li class="nav-item ">
-                <a class="nav-link waves-effect waves-light" href="https://www.instagram.com/willinerrepuestos/?hl=es">
-                  <i class="fab fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="https://es-la.facebook.com/Williner.Repuestos.Rafaela/">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link waves-effect waves-light" href="https://wa.me/message/F3SOEY6S2DSSB1">
-                    <i class="fab fa-whatsapp"></i>
-                  </a>
-                </li>
-            </ul>
-          </div>
-        </nav>       
-        <!-- Inicio de seccion 2 NOVEDADES-->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>    
-        <div class="container-fluid d-flex flex-column justify-content-center">
-          <div id="Seccion-2" class="mt-5 pt-5" >
-          <!--<div class="container  yellow accent-2 mb-3 z-depth-2">
-                <div class="container d-flex justify-content-center align-items-center text-center text-black xample">
-                  <i class="far fa-bell pr-2 "></i>
-                  <h5 class="my-2 font-weight-bold">NOVEDADES</h5>
-                </div>
-              </div>-->
-              <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/fondo-1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item ">
-                    <img src="img/fondo-2.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" >
-                    <img src="img/fondo-3.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin Barra de navegación NavBar -->
+  
+  <section class="fondo view ">
+    <div class="mask pattern-7 rgba-black-ligh d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row mt-5 d-flex justify-content-center align-items-center">
+          <!-- Textos Responsives -->
+          <div class="col-md-6 mt-md-0 mt-3 text-white "> 
+
+
+            <div class="card pt-4 rgba-black-strong">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="img/svg/logo-sitio-1.svg" alt="Logo Williner Repuestos">
+              <!-- Card content -->
+              <div class="card-body">
+                <hr class="bg-light d-none d-md-block">
+                <p class="h4-responsive text-center text-md-left ">Venta de repuestos para el automotor.</p>
               </div>
-          </div>
-        </div>
-        <!-- Fin de seccion 2 -->
-
-        <!-- Inicio de seccion 3 SERVICIOS -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>    
-        <div class="container-fluid mt-4 d-flex flex-column justify-content-center ">
-              <div id="Seccion-3" class="pt-5" >
-                <div class="container my-3">
-                    <!-- <div class="container yellow accent-2 mb-3 d-flex justify-content-center align-items-center text-center z-depth-2">
-                      <i class="far fa-handshake pr-2"></i>
-                      <h5 class="my-2 font-weight-bold">SERVICIOS</h5>
-                    </div> -->       <!-- >Colgue el encabezado-->
-                    
-                    <div class="container d-flex ">        
-                      <div class=" row justify-content-between">
-                        <div class="col-md-6 col-xl-4 mb-4">
-                          <div class="card text-center bg-success text-white">
-                            <div class="card-body">
-                              <p class="mt-4 pt-2"><i class="far fa-comments fa-4x"></i></p>
-                              <h5 class="font-weight-normal my-4 py-2">Asesoramiento</h5>
-                              <p class="mb-4">Brindamos asesoramiento con el objetivo de facilitar la toma de desición a la hora de invertir.</p>
-                            </div>
-                          </div>
-                        </div>
-                  
-                        <div class="col-md-6 col-xl-4 mb-4">
-                          <div class="card text-center">
-                            <div class="card-body">
-                              <p class="mt-4 pt-2"><i class="fas fa-users fa-4x grey-text"></i></p>
-                              <h5 class="font-weight-normal my-4 py-2">Atención propia</h5>
-                              <p class="text-muted mb-4">Como dueños atendemos personalmente a nuestros clientes generando confianza y empatía.</p>
-                            </div>
-                          </div>
-                        </div>
-                  
-                        <div class="col-md-6 col-xl-4 mb-4">
-                          <div class="card text-center deep-purple lighten-1 text-white">
-                            <div class="card-body">
-                              <p class="mt-4 pt-2"><i class="fas fa-mobile-alt fa-4x"></i></p>
-                              <h5 class="font-weight-normal my-4 py-2">Atención virtual</h5>
-                              <!-- <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Atención virtual</a></h5> -->
-                              <p class="mb-4">Generamos un canal de comunicación dínámico para así atender consultas e inquietudes no presenciales.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-        </div>
-        <!-- Fin de seccion 3 -->
-        
-        <!-- Inicio de seccion 4 MARCA QUE TRABAJAMOS-->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br> 
-        <div class="container-fluid  d-flex flex-column justify-content-center text-centerk">
-          <div id="Seccion-4" class="mt-5">
-            <div class="container my-5">
-
-
-              <!--Section: Content-->
-              <div class="text-center dark-grey-text">
-                <!-- <div class="container yellow accent-2 mb-3 d-flex justify-content-center align-items-center text-center z-depth-2">
-                  <i class="far fa-handshake pr-2"></i>
-                  <h5 class="my-2 font-weight-bold">MARCAS QUE TRABAJAMOS</h5>
-                </div> -->
-            
-                <div class="row">
-                  <div class="col-md-12">
-            
-                    <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
-            
-                      <!--Controls-->
-                      <div class="controls-top">
-                        <a class="btn-floating bg-transparent z-depth-0 m-0" href="#carousel-example-multi" data-slide="prev"><i class="dark-grey-text fas fa-chevron-left"></i></a>
-                        <a class="btn-floating bg-transparent z-depth-0 m-0" href="#carousel-example-multi" data-slide="next"><i class="dark-grey-text fas fa-chevron-right"></i></a>
-                      </div>
-                      <!--/.Controls-->
-            
-                      <div class="carousel-inner" role="listbox">
-            
-                        <div class="carousel-item active">
-                          <div class="col-12 col-md-6 mb-4 mx-auto">
-                            <div class="view rounded z-depth-1-half">
-                              <img src="img/mann.jpg" class="img-fluid rounded" alt="Sample image">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="col-12 col-md-6 mb-4 mx-auto">
-                            <div class="view rounded z-depth-1-half">
-                              <img src="img/wix.jpg" class="img-fluid rounded" alt="Sample image">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="col-12 col-md-6 mb-4 mx-auto">
-                            <div class="view rounded z-depth-1-half">
-                              <img src="img/sachs.JPG" class="img-fluid rounded" alt="Sample image">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="col-12 col-md-6 mx-auto">
-                            <div class="view rounded z-depth-1-half">
-                              <img src="img/liquimoly.jpg" class="img-fluid rounded" alt="Sample image">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="col-12 col-md-6 mb-4 mx-auto">
-                            <div class="view rounded z-depth-1-half">
-                              <img src="img/dolz.jpg" class="img-fluid rounded" alt="Sample image">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="col-12 col-md-6 mb-4 mx-auto">
-                            <div class="view rounded z-depth-1-half">
-                              <img src="img/sakura.jpg" class="img-fluid rounded" alt="Sample image">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="carousel-item">
-                          <div class="col-12 col-md-6 mb-4 mx-auto">
-                            <div class="view rounded z-depth-1-half">
-                              <img src="img/calorstat.JPG" class="img-fluid rounded" alt="Sample image">
-                            </div>
-                          </div>
-                        </div>      
-                        <div class="carousel-item">
-                          <div class="col-12 col-md-6 mb-4 mx-auto">
-                            <div class="view rounded z-depth-1-half">
-                              <img src="img/ngk.jpg" class="img-fluid rounded" alt="Sample image">
-                            </div>
-                          </div>
-                        </div>        
-
-                      </div>
-            
-                    </div>
-            
-                  </div>
-                </div>
-            
-              </div>
-              <!--Section: Content-->
-            
             
             </div>
-          </div>
-        </div>
-        <!-- Fin de seccion 4 -->
 
-        <!-- Inicio de seccion 5 CONTACTO -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="container-fluid  d-flex flex-column justify-content-center text-centerk">    
-          <div id="Seccion-5"class="my-5 pt-1">
-            <div class="container-fluid px-5">
-              <!-- <div class="container yellow accent-2 mb-3 d-flex justify-content-center align-items-center text-center z-depth-2">
-                  <i class="far fa-handshake pr-2"></i>
-                  <h5 class="my-2 font-weight-bold">CONTACTO</h5>
-              </div> -->
 
-              <!-- Section: Block Content -->
-              <div class="mb-4">
-                <div class="card">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <!-- Google Maps -->
-                      <div id="map-within-card-2" class="map-container rounded-left" style="height: 400px">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.3626615548724!2d-61.499554421426225!3d-31.246283771669713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caae3dcbdf9563%3A0x226de5f7e7528114!2sWilliner%20Repuestos%20(Rafaela)!5e0!3m2!1ses-419!2sar!4v1611321365889!5m2!1ses-419!2sar" frameborder="0"
-                          style="border:0" allowfullscreen></iframe>
-                      </div>
-                      <!-- Google Maps -->
-                    </div>
+            <!-- <div class="container py-5 rgba-black-strong" >
+              <img src="img/svg/logo-sitio-1.svg" class="img-fluid "  alt="Logo Williner Repuestos">
+              <hr class="bg-light d-none d-md-block">
+              <p class="h4-responsive text-center text-md-left ">Venta de repuestos para el automotor.</p>
+            </div> -->
             
-                    <div class="col-10 col-md-4 mx-auto align-self-center py-4">
-                      <!-- <h2>WILLINER REPUESTOS</h2> -->
-                      <div class="Container d-none d-sm-block ">
-                        <img src="img/svg/logo-contacto.svg"  width="200" height="200" alt="Logo Williner Repuestos" class="img-fluid pb-2">
-                      </div>
-                      <h6 class="font-weight-bold grey-text text-uppercase small">Mercado de autopartes</h6>
-                      <h5 class="font-weight-normal mb-4">Rafaela, Santa Fe</h5>
-                      <p class="text-muted font-weight-light">Ayacucho 555, Barrio 9 de Julio, C.P.: S2300</p>
-                      <p class="text-muted font-weight-light mb-0">Teléfono: +54 03492 424288 <br>Email: williner.repuestos@gmail.com</p>
-                    </div>
+          </div>
+          <!-- Fin Textos Responsives -->
+
+          <!-- Formulario -->
+          <div class="col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="text-center green-text"><b>Lorem, ipsum dolor.</b></h1>
+                <hr>
+
+                <form>
+                  <div class="md-form">
+                    <i class="fas fa-user prefix green-text"></i>
+                    <input type="text" id="nombre" class="form-control">
+                    <label for="nombre">Nombre:</label>
                   </div>
-                </div>
+
+                  <div class="md-form">
+                    <i class="fas fa-envelope prefix green-text"></i>
+                    <input type="text" id="email" class="form-control">
+                    <label for="email">Email:</label>
+                  </div>
+
+                  <div class="md-form">
+                    <i class="fas fa-file-alt prefix green-text"></i>
+                    <textarea  id="texto" class="md-textarea"></textarea>
+                    <label for="texto">Ingresa tus comentarios:</label>
+                  </div>
+
+                  <div class="text-center">
+                    <button class="btn btn-green">Enviar</button>
+                  </div>
+
+                </form>
+              
               </div>
-              <!-- Section: Block Content -->
             </div>
           </div>
+          <!-- Fin formulario -->
         </div>
-       
+      </div>
+     
+    </div>
+  </section>
+  <section class="fondo view ">
+    <div class="mask pattern-7 rgba-black-ligh d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row mt-5 d-flex justify-content-center align-items-center">
+          <!-- Textos Responsives -->
+          <div class="col-md-6 mt-md-0 mt-3 text-white "> 
 
-      <!-- Fin secciones -->
 
+            <div class="card pt-4 rgba-black-strong">
 
-      <!-- Pie -->
-        <footer class="page-footer font-small teal darken-3 py-4">
-
-          <!-- Footer Elements -->
-          <div class="container">
-        
-            <div class="row">
-              <div class="col-md-6 d-flex justify-content-start">
-                <!-- Copyright -->
-                <div class="footer-copyright text-center bg-transparent">© 2023 Copyright:
-                  <h class="text-white"> Williner Repuestos</h>
-                </div>
-                <!-- Copyright -->
+              <!-- Card image -->
+              <img class="card-img-top" src="img/svg/logo-sitio-1.svg" alt="Logo Williner Repuestos">
+              <!-- Card content -->
+              <div class="card-body">
+                <hr class="bg-light d-none d-md-block">
+                <p class="h4-responsive text-center text-md-left ">Venta de repuestos para el automotor.</p>
               </div>
-              <div class="col-md-6 d-flex justify-content-end">
-                <ul class="list-unstyled d-flex mb-0">
-                  <li>
-                    <a class="mr-3" role="button" href="https://www.instagram.com/willinerrepuestos/?hl=es"><i class="fab fa-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a class="mr-3" role="button" href="https://es-la.facebook.com/Williner.Repuestos.Rafaela/"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a class="" role="button" href="https://wa.me/message/F3SOEY6S2DSSB1"><i class="fab fa-whatsapp"></i></a>
-                  </li>
-                  
-                </ul>
+            
+            </div>
+
+
+            <!-- <div class="container py-5 rgba-black-strong" >
+              <img src="img/svg/logo-sitio-1.svg" class="img-fluid "  alt="Logo Williner Repuestos">
+              <hr class="bg-light d-none d-md-block">
+              <p class="h4-responsive text-center text-md-left ">Venta de repuestos para el automotor.</p>
+            </div> -->
+            
+          </div>
+          <!-- Fin Textos Responsives -->
+<!-- Carousel wrapper -->
+<div
+  id="carouselBasicExample"
+  class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"></li>
+    <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"></li>
+    <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"></li>
+  </ol>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <img
+        src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img
+        src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img
+        src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <a
+    class="carousel-control-prev"
+    href="#carouselBasicExample"
+    role="button"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#carouselBasicExample"
+    role="button"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+<!-- Carousel wrapper -->
+          <!-- Formulario -->
+          <div class="col-md-6 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="text-center green-text"><b>Lorem, ipsum dolor.</b></h1>
+                <hr>
+
+                <form>
+                  <div class="md-form">
+                    <i class="fas fa-user prefix green-text"></i>
+                    <input type="text" id="nombre" class="form-control">
+                    <label for="nombre">Nombre:</label>
+                  </div>
+
+                  <div class="md-form">
+                    <i class="fas fa-envelope prefix green-text"></i>
+                    <input type="text" id="email" class="form-control">
+                    <label for="email">Email:</label>
+                  </div>
+
+                  <div class="md-form">
+                    <i class="fas fa-file-alt prefix green-text"></i>
+                    <textarea  id="texto" class="md-textarea"></textarea>
+                    <label for="texto">Ingresa tus comentarios:</label>
+                  </div>
+
+                  <div class="text-center">
+                    <button class="btn btn-green">Enviar</button>
+                  </div>
+
+                </form>
+              
               </div>
             </div>
-        
           </div>
-          <!-- Footer Elements -->
-        
-            </footer>
-      <!-- Fin del pie -->
-    <!-- Fin del proyecto-->
+          <!-- Fin formulario -->
+        </div>
+      </div>
+     
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
-
+  <!-- End your project here-->
 
   <!-- jQuery -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -402,31 +346,5 @@
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
 
-  <script src="js/smooth-scroll.polyfills.min.js"></script>
-  <script >
-    var scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 2000,
-    offset:100,
-    speedAsDuration: true,
-    easing: 'easeInOutCubic'
-    });
-    
-    $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function () {
-    var next = $(this).next();
-    if (!next.length) {
-      next = $(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
-
-    for (var i = 0; i < 4; i++) {
-      next = next.next();
-      if (!next.length) {
-        next = $(this).siblings(':first');
-      }
-      next.children(':first-child').clone().appendTo($(this));
-    }
-  });
-
-  </script> 
 </body>
 </html>
